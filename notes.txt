@@ -2,3 +2,7 @@ git stages:
 U - untracked
 A - added or staged
 C - Commited
+
+
+to check the current status of checkppoints ot commits
+command : git log --oneline
