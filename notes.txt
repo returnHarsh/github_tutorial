@@ -29,3 +29,15 @@ git switch branch_name
 
 To merge a branch to another one just do , to merge the branches you have to be present on main branch
 command : git merge branch_name
+
+Difference between git fetch and git pull
+
+command : git fetch
+git fetch downloads commits, files, and references from a remote repository (such as origin) to your local repository.
+It does not modify your working directory or merge any changes into your local branches.
+It only updates your remote-tracking branches (e.g., origin/main), allowing you to see the changes made on the remote repository.
+
+command : git pull
+git pull is a combination of git fetch followed by either git merge or git rebase.
+It downloads the changes from the remote repository (like git fetch) and immediately integrates those changes into your current branch.
+By default, git pull performs a git fetch followed by a git merge.
